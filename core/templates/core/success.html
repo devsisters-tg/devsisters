@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Message envoyé — DevSisters</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      background: #080810;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Syne', sans-serif;
+      color: #e8e8f0;
+    }
+    .box {
+      text-align: center;
+      padding: 3rem 2rem;
+      max-width: 480px;
+    }
+    .emoji { font-size: 4rem; margin-bottom: 1.5rem; animation: bounce 1s ease infinite alternate; }
+    @keyframes bounce { from { transform: translateY(0); } to { transform: translateY(-10px); } }
+    h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; }
+    h1 span { color: #7cffcb; }
+    p { color: #888899; line-height: 1.7; margin-bottom: 2rem; }
+    a {
+      display: inline-block;
+      padding: 0.85rem 2rem;
+      background: #7cffcb;
+      color: #080810;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: opacity 0.2s;
+    }
+    a:hover { opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="emoji">🚀</div>
+    <h1>Message <span>reçu !</span></h1>
+    <p>On a bien reçu votre demande. On vous répond sous 48h avec une estimation et nos disponibilités. Merci de nous faire confiance !</p>
+    <a href="/">← Retour au site</a>
+  </div>
+</body>
+</html>
