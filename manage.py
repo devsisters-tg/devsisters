@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 import os
 import sys
-
+ 
 def main():
+    
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'devsisters.settings')
     try:
         from dotenv import load_dotenv
